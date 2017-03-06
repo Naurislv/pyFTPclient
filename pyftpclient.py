@@ -157,7 +157,7 @@ if __name__ == "__main__":
     logging.basicConfig(format='%(asctime)s %(levelname)s: %(message)s', level=logging.DEBUG)
 
     if args.local_dir != '':
-        logging.info('Creating {} directory'.format())
+        logging.info('Creating {} directory'.format(args.local_dir))
         if not os.path.exists(args.local_dir):
             os.makedirs(args.local_dir)
 
