@@ -7,4 +7,6 @@ Features:
 - it shows download progress,
 - it changes socket settings for optimal download,  
 - it monitors status of the FTP connection
-- it can reconnect and download file from the point of disconnect.  
+- it can reconnect and download file from the point of disconnect.
+
+Warning : This version of pyFTPclient will download all files containing in remote directory.
